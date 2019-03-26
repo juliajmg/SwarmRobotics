@@ -1,6 +1,6 @@
 
-@snap[west span-50 text-06]
-### CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
+
+# CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
 
 - Swarm of robots to make a collective decision over which option, out of n available options, offers the best alternative to satisfy the current needs of the swarm.
 
@@ -12,7 +12,7 @@
 
 @snapend
 
---- 
+---
 
 ### Option quality
 
