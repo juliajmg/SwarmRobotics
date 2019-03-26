@@ -1,11 +1,14 @@
 ## CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
+
 @snap[west span-50]
 - Swarm of robots to make a collective decision over which option, out of n available options, offers the best alternative to satisfy the current needs of the swarm.
 
 - **Options**: domain-specific concepts related to particular scenarios (e.g. foraging patches, aggregation areas, traveling paths). Options are characterized by a **quality** and a **cost**.   
+@snapend
+
 @snap[east span-50]
 ![](TheBestOfNProblems.png)
-
+@snapend
 --- 
 
 ### Option quality
