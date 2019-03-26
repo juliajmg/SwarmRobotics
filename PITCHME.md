@@ -1,6 +1,4 @@
-# CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS
-
-## Best-of-n problem
+## CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
 
 - Swarm of robots to make a collective decision over which option, out of n available options, offers the best alternative to satisfy the current needs of the swarm.
 
@@ -8,8 +6,6 @@
 
 
 ![](TheBestOfNProblems.png)
-
-
 
 -------------------
 ### Option quality
