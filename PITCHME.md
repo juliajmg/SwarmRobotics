@@ -1,6 +1,7 @@
-## CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
 
 @snap[west span-50]
+### CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
+
 - Swarm of robots to make a collective decision over which option, out of n available options, offers the best alternative to satisfy the current needs of the swarm.
 
 - **Options**: domain-specific concepts related to particular scenarios (e.g. foraging patches, aggregation areas, traveling paths). Options are characterized by a **quality** and a **cost**.   
@@ -13,6 +14,7 @@
 
 ### Option quality
 
+@snap[west span-50 text-06]
   - Quality of the option, of primary concern for the objective of the swarm.
 
   - Robots are programmed to actively measure and estimate their quality and to prefer options whose attributes have certain characteristics.
@@ -21,6 +23,9 @@
 
   - Once evaluated, information of the quality of the option is used to influence the collective decision-making process in favor of the best option.
 
+@snapend
+
+@snap[west span-50 text-06]
 ### Option cost
 
 - Average time needed by a robot to obtain one sample of the quality of the option.
@@ -29,6 +34,7 @@
 
 - The cost biases the collective decision-making process indirectly: bias induced by the environment and is not under the control of individual robots.
 
+@snapend 
 ---
 
 ### A) Classification of the best-of-n problem instances:
