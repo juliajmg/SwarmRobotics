@@ -1,13 +1,13 @@
 ## CLASSIFICATION FOR COLLECTIVE DECISION MAKING IN ROBOTS SWARMS: The best-of-n-problems. 
-
+@snap[west span-50]
 - Swarm of robots to make a collective decision over which option, out of n available options, offers the best alternative to satisfy the current needs of the swarm.
 
 - **Options**: domain-specific concepts related to particular scenarios (e.g. foraging patches, aggregation areas, traveling paths). Options are characterized by a **quality** and a **cost**.   
-
-
+@snap[east span-50]
 ![](TheBestOfNProblems.png)
 
--------------------
+--- 
+
 ### Option quality
 
   - Quality of the option, of primary concern for the objective of the swarm.
@@ -26,7 +26,7 @@
 
 - The cost biases the collective decision-making process indirectly: bias induced by the environment and is not under the control of individual robots.
 
---------------------------------
+---
 
 ### A) Classification of the best-of-n problem instances:
 
@@ -39,7 +39,7 @@
 
 ![](taxonomy_bestNProblems.png)  
 
------------------------------------
+---
 
 ### Also, quality and cost can be **static** or **dynamic**
 
@@ -51,14 +51,14 @@
 - Additionally, a consensus decision corresponding to a large majority rather than unanimity allows swarm systems to swiftly react to perturbations as in the case of fish schools.
 
 
--------------------------------------
-
+---
 ### B) Classification based on the design
 
 
 ![](DesignBasedClassification.png)
 
----------------------
+---
+
 ### 1. Bottom-up design
 
 **1.1. Opinion-based approaches**
@@ -79,7 +79,7 @@ Studies that focus on problem of **spatial aggregation** and on the problem of n
 
 **Garnier et al. 2009**
 
----------------------------
+---
 
 ### 2. Top-down design
 
@@ -95,7 +95,7 @@ Black-box controllers.
 
 Relies on optimization processes to combine behaviors chosen from a predefined set and obtain a robot controller that is represented by a probabilistic finite-state machine.
 
----------
+---
 
 # Self-organization in aggregation papers
 
@@ -117,7 +117,7 @@ Prove cockroaches aggregation behavioral model in robots:
 
 **Baseline**: Any constraint that modulates the speed of the self-amplification process at one of the different opportunities can lead that opportunity to win or lose against others.
 
-----------------------------------
+---
 
 #### Behavioral model
 
@@ -136,7 +136,7 @@ Rules:
 If aggregation is restricted or favored in spatially distinct areas, competition should arise between the potential aggregation sites.
 
 
------------------------
+---
 
 #### Experiment
 
@@ -156,7 +156,7 @@ Settings:
 
 ![](ExperimentalSetup.png)
 
-  -------------------
+---
 
 ### RESULTS
 
@@ -171,7 +171,7 @@ Settings:
 
 **A physical property of the environment can also have an influence through the collective dynamics and without any modulation of the individual behavior**
 
---------------------
+---
 ### FUTURE WORK
 
 - Larger grups aggregation based on individual density-estimations.
@@ -180,9 +180,7 @@ Settings:
 
 - Biological system: ant *Temnothorax albipennis*(Prat 2005).
 
-----------------------------------------
-
-
+---
 
 ## 3. Self-Organized Aggregations in Swarms of Robots with Informed Robots
 
@@ -190,7 +188,7 @@ Settings:
 
 Study how the introduction of informed robots i.e.(with a preferred aggregation site) impacts the aggregation dynamics.
 
-------------------------------
+---
 
 ### Experimental conditions
 
@@ -206,7 +204,7 @@ Study how the introduction of informed robots i.e.(with a preferred aggregation 
 
 ![](conditions_informed.png)
 
----------------------------
+---
 
 ### Results
 
@@ -218,7 +216,7 @@ Study how the introduction of informed robots i.e.(with a preferred aggregation 
 
 ![](PercentageAggregatedRobotsN=100.png)
 
-----------------------------------------------
+---
 
 ## 3. Using robots to understand social behaviour
 
@@ -252,7 +250,7 @@ Unexpected outcomes due to inclusion of a physical property that would not have 
 
 ¿How communicative behaviour evolves?
 
----------------------------
+---
 
 #### Evaluating robotic models
 
@@ -270,7 +268,7 @@ Risk of not answering a particular question.
 
 In **hypothesis driven** experiments, controlled manipulations make it easier to understand causal mechanisms, and thus to link the model results to natural phenomena.
 
---------------------------------------
+---
 
 ### Future directions
 
@@ -279,5 +277,3 @@ In **hypothesis driven** experiments, controlled manipulations make it easier to
 - Interplay between mechanistic properties that are highly dependent on physical factors, and effects arising over evolutionary time:
     - How social interactions can affect the evolutionary pathways of organisms and the evolution of complex social systems.
 
-
-----------------------------
